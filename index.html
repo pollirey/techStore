@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="storage.js" defer></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Tech Store</a>
+        <a href="cart.html" class="cart-info">Корзина: <span id="cartCount">0</span></a>
+    </header>
+    <main>
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="laptop">Ноутбуки</button>
+            <button class="filter-btn" data-category="phone">Смартфоны</button>
+            <button class="filter-btn" data-category="tablet">Планшеты</button>
+        </div>
+        <div class="products-grid" id="productsGrid">
+           
+        </div>
+    </main>
+</body>
+</html>
